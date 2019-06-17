@@ -31,10 +31,10 @@ var beefButton = $(".submit-beef");
 var chickenButton = $(".submit-chicken");
 var veggiesButton = $(".submit-veggies");
 
-pastaButton.on('click',pastaTips);
-beefButton.on('click',beefTips);
-chickenButton.on('click',chickenTips);
-veggiesButton.on('click',veggiesTips);
+pastaButton.on("click",pastaTips);
+beefButton.on("click",beefTips);
+chickenButton.on("click",chickenTips);
+veggiesButton.on("click",veggiesTips);
 
 
 function pastaTips(event){
@@ -45,7 +45,7 @@ function pastaTips(event){
   var newMessage = pasta[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
-  message.addClass('messageRecolor');
+  message.addClass("messageRecolor");
 }
 
 function beefTips(event){
@@ -56,7 +56,7 @@ function beefTips(event){
   var newMessage = beef[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
-  message.addClass('messageRecolor');
+  message.addClass("messageRecolor");
 }
 
 function chickenTips(event){
@@ -67,7 +67,7 @@ function chickenTips(event){
   var newMessage = chicken[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
-  message.addClass('messageRecolor');
+  message.addClass("messageRecolor");
 }
 
 function veggiesTips(event){
@@ -78,5 +78,5 @@ function veggiesTips(event){
   var newMessage = veggies[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
-  message.addClass('messageRecolor');
+  message.addClass("messageRecolor");
 }
