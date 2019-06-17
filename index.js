@@ -34,16 +34,16 @@ chickenButton.on('click',chickenTips);
 veggiesButton.on('click',veggiesTips);
 
 
-// function pastaTips(event){
-//   event.preventDefault();
-//   var randomDecimal = Math.random()*pasta.length;
-//   var roundedNum = Math.floor(randomDecimal);
-//   var message = $('.message');
-//   var newMessage = pasta[roundedNum];
-//   console.log(newMessage);
-//   message.text(newMessage);
-//   message.addClass('messageRecolor');
-// }
+function pastaTips(event){
+  event.preventDefault();
+  var randomDecimal = Math.random()*pasta.length;
+  var roundedNum = Math.floor(randomDecimal);
+  var message = $('.message');
+  var newMessage = pasta[roundedNum];
+  console.log(newMessage);
+  message.text(newMessage);
+  message.addClass('messageRecolor');
+}
 
 // function beefTips(event){
 //   event.preventDefault();
