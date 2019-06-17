@@ -1,10 +1,10 @@
 //Define Constant Arrays for Displayed Message
 console.log("Javascript is loaded.");
 
-// const pasta = ["Don't rinse your pasta, or you'll get rid of all the starches that help the sauce cling to it.", 
-//             "Always finish your pasta in the sauce!",
-//             "Slightly undercook your pasta, so that when you finish it off in the sauce, it will cook to your liking",
-//             "For thick, chunky sauces, pick a pasta with wide grooves"];
+const pasta = ["Don't rinse your pasta, or you'll get rid of all the starches that help the sauce cling to it.", 
+            "Always finish your pasta in the sauce!",
+            "Slightly undercook your pasta, so that when you finish it off in the sauce, it will cook to your liking",
+            "For thick, chunky sauces, pick a pasta with wide grooves"];
 
 // const beef = ["For medium doneness, cook to 134*F!",
 //            "For rare doneness, cook to 120*F!",
