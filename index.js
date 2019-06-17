@@ -9,9 +9,6 @@ var pasta = ["Don't rinse your pasta, or you'll get rid of all the starches that
              "Slightly undercook your pasta, so that when you finish it off in the sauce, it will cook to your liking", 
              "For thick, chunky sauces, pick a pasta with wide grooves"];
 
-console.log(pasta[1]);
-console.log("This is working.");
-
 // const beef = ["For medium doneness, cook to 134*F!",
 //            "For rare doneness, cook to 120*F!",
 //            "For well done, cook to 160*F!",
@@ -29,27 +26,29 @@ console.log("This is working.");
 //                  "Starchy vegetables like potatoes are a wonderful addition to soups and sauces.",
 //                 "Save those bits and pieces from the cutting board! Place them in a freezer bag. When the bag is full, boil the contents for a wonderful vegetable stock."];
 
-// var pastaButton = $('.submit-pasta');
+var pastaButton = $('.submit-pasta');
+console.log(pastaButton);
+
 // var beefButton = $('.submit-beef');
 // var chickenButton = $('.submit-chicken');
 // var veggiesButton = $('.submit-veggies');
 
-// pastaButton.on('click',pastaTips);
+pastaButton.on('click',pastaTips);
 // beefButton.on('click',beefTips);
 // chickenButton.on('click',chickenTips);
 // veggiesButton.on('click',veggiesTips);
 
 
-// function pastaTips(event){
-//   event.preventDefault();
-//   var randomDecimal = Math.random()*pasta.length;
-//   var roundedNum = Math.floor(randomDecimal);
-//   var message = $('.message');
-//   var newMessage = pasta[roundedNum];
-//   console.log(newMessage);
-//   message.text(newMessage);
-//   message.addClass('messageRecolor');
-// }
+function pastaTips(event){
+  event.preventDefault();
+  var randomDecimal = Math.random()*pasta.length;
+  var roundedNum = Math.floor(randomDecimal);
+  var message = $('.message');
+  var newMessage = pasta[roundedNum];
+  console.log(newMessage);
+  message.text(newMessage);
+  message.addClass('messageRecolor');
+}
 
 // function beefTips(event){
 //   event.preventDefault();
