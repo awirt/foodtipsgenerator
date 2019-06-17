@@ -28,10 +28,10 @@ var beefButton = $('.submit-beef');
 var chickenButton = $('.submit-chicken');
 var veggiesButton = $('.submit-veggies');
 
-// pastaButton.on('click',pastaTips);
-// beefButton.on('click',beefTips);
-// chickenButton.on('click',chickenTips);
-// veggiesButton.on('click',veggiesTips);
+pastaButton.on('click',pastaTips);
+beefButton.on('click',beefTips);
+chickenButton.on('click',chickenTips);
+veggiesButton.on('click',veggiesTips);
 
 
 // function pastaTips(event){
