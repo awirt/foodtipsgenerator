@@ -7,6 +7,7 @@ console.log(subtitle);
 var pasta = ["Don't rinse your pasta, or you'll get rid of all the starches that help the sauce cling to it.", "Always finish your pasta in the sauce!", "Slightly undercook your pasta, so that when you finish it off in the sauce, it will cook to your liking", "For thick, chunky sauces, pick a pasta with wide grooves"];
 
 console.log(pasta[1]);
+console.log("This is working.");
 
 // const beef = ["For medium doneness, cook to 134*F!",
 //            "For rare doneness, cook to 120*F!",
