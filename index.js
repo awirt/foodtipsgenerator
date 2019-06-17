@@ -52,7 +52,7 @@ function beefTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*beef.length;
   var roundedNum = Math.floor(randomDecimal);
-  let message = $('.message');
+  let message = $('message');
   let newMessage = beef[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
@@ -63,7 +63,7 @@ function chickenTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*chicken.length;
   var roundedNum = Math.floor(randomDecimal);
-  let message = $('.message');
+  let message = $('message');
   let newMessage = chicken[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
