@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 90px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Marck Script', cursive;
+  font-size: 25px;
+  color: white;
+}
+
+.subtitle {
+  font-family: 'Merienda', cursive;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1000px;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+article{
+  text-align: center;
+  position: relative;
+}
+
+.imagecontainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.pastatext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.beeftext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.chickentext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.veggietext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.messagecontainer{
+  max-width: 30%;
+  padding: 16px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.message{
+  border-style: solid;
+  border-color: grey;
+  color: lightgrey;
+  padding: 10px;
+  font-size: 20px;
+  height: 75%;
+}
+
+.messageRecolor{
+  border-style: solid;
+  border-color: grey;
+  padding: 10px;
+  font-size: 20px;
+  height: 75%;
+  color: black;
+  font-size: 15px;
+  font-family: Arial;
+}
