@@ -38,6 +38,7 @@ function pastaTips(event){
   var roundedNum = Math.floor(randomDecimal);
   var message = $('.message');
   var newMessage = pasta[roundedNum];
+  console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
 }
@@ -48,6 +49,7 @@ function beefTips(event){
   var roundedNum = Math.floor(randomDecimal);
   var message = $('.message');
   var newMessage = beef[roundedNum];
+  console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
 }
@@ -58,6 +60,7 @@ function chickenTips(event){
   var roundedNum = Math.floor(randomDecimal);
   var message = $('.message');
   var newMessage = chicken[roundedNum];
+  console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
 }
@@ -68,8 +71,7 @@ function veggiesTips(event){
   var roundedNum = Math.floor(randomDecimal);
   var message = $('.message');
   var newMessage = veggies[roundedNum];
+  console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
 }
-
-
