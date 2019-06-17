@@ -41,7 +41,7 @@ function pastaTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*pasta.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('message');
+  var message = $('.message');
   var newMessage = pasta[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
@@ -52,7 +52,7 @@ function beefTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*beef.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('message');
+  var message = $('.message');
   var newMessage = beef[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
