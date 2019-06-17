@@ -26,10 +26,10 @@ const veggies = ["Most veggies can be eaten raw without any negative consequence
                  "Starchy vegetables like potatoes are a wonderful addition to soups and sauces.",
                 "Save those bits and pieces from the cutting board! Place them in a freezer bag. When the bag is full, boil the contents for a wonderful vegetable stock."];
 
-var pastaButton = $('.submit-pasta');
-var beefButton = $('.submit-beef');
-var chickenButton = $('.submit-chicken');
-var veggiesButton = $('.submit-veggies');
+var pastaButton = $('submit-pasta');
+var beefButton = $('submit-beef');
+var chickenButton = $('submit-chicken');
+var veggiesButton = $('submit-veggies');
 
 pastaButton.on('click',pastaTips);
 beefButton.on('click',beefTips);
@@ -41,7 +41,7 @@ function pastaTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*pasta.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
+  var message = $('message');
   var newMessage = pasta[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
@@ -52,7 +52,7 @@ function beefTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*beef.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
+  var message = $('message');
   var newMessage = beef[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
