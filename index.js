@@ -41,7 +41,7 @@ function pastaTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*pasta.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
+  var message = $('message');
   var newMessage = pasta[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
@@ -52,8 +52,8 @@ function beefTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*beef.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
-  var newMessage = beef[roundedNum];
+  let message = $('.message');
+  let newMessage = beef[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
@@ -63,8 +63,8 @@ function chickenTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*chicken.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
-  var newMessage = chicken[roundedNum];
+  let message = $('.message');
+  let newMessage = chicken[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
   message.addClass('messageRecolor');
@@ -74,7 +74,7 @@ function veggiesTips(event){
   event.preventDefault();
   var randomDecimal = Math.random()*veggies.length;
   var roundedNum = Math.floor(randomDecimal);
-  var message = $('.message');
+  var message = $('message');
   var newMessage = veggies[roundedNum];
   console.log(newMessage);
   message.text(newMessage);
