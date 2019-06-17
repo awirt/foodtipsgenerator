@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   background-image: linear-gradient(to right top, #2264c3, #0079cd, #008cd0, #009ecf, #00aecc, #00bac7, #00c5bc, #32cfaa, #61d78c, #92db6a, #c6dc47, #fdd62d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
