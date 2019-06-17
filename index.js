@@ -26,7 +26,7 @@ var pasta = ["Don't rinse your pasta, or you'll get rid of all the starches that
 //                  "Starchy vegetables like potatoes are a wonderful addition to soups and sauces.",
 //                 "Save those bits and pieces from the cutting board! Place them in a freezer bag. When the bag is full, boil the contents for a wonderful vegetable stock."];
 
-var pastaButton = $('.submit-pasta');
+var pastaButton = $('submit-pasta');
 console.log(pastaButton);
 
 // var beefButton = $('.submit-beef');
